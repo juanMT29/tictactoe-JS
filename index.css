@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: #f4f6f6;
+}
+/*------------- TITULO-------------- */
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ---------------CAJA DE JUEGO----------------*/
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    text-align: center;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    width: 80px;
+    margin: 2px;
+    height: 80px;
+    font-size: 60px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.button:disabled{
+    color: black;
+    cursor: no-drop;
+}
+
+/* ----------------RESULTADOS--------------*/
+
+.result{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*-----------------BOTON----------------*/
+
+.reset{
+    text-align: center;
+}
+
+
+#reset{
+    padding: 5px 20px;
+    margin: 35px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#reset:hover{
+    color: #fff;
+    background-color: #000;
+}
+
